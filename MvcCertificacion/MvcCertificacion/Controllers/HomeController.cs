@@ -8,6 +8,11 @@ namespace MvcCertificacion.Controllers
 {
     public class HomeController : Controller
     {
+        public string IndexString()
+        {
+            return "Hola";
+        }
+            
         public ActionResult Index()
         {
             return View();
